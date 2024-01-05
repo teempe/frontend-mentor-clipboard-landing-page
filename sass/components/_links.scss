@@ -1,0 +1,28 @@
+.links {
+    list-style: none;
+    height: 100%;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    row-gap: 2rem;
+    transition: color 0.25s ease-out;
+
+    &__link {
+        text-decoration: none;
+        color: var(--color-dark-grayish-blue);
+
+        font-size: 1.8rem;
+        line-height: 3rem;
+        letter-spacing: 0.014rem;
+
+        &:hover, &:focus {
+            color: var(--color-strong-cyan)
+        }
+    }
+
+    // @media only screen and (min-width: $bp-desktop) {
+    //     row-gap: 1.2rem;
+    //     column-gap: 9.4rem;
+    // }
+}

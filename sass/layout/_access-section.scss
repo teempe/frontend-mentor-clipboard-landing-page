@@ -1,0 +1,11 @@
+.access {
+    padding: 0 3.2rem 13.1rem;
+
+    display: grid;
+    justify-items: center;
+    row-gap: 6.4rem;
+
+    &__img {
+        width: 100%;
+    }
+}

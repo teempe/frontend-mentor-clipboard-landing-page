@@ -1,0 +1,31 @@
+body {
+    font-family: var(--ff-body);
+    font-weight: var(--fw-regular);
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    letter-spacing: 0.012rem;
+}
+
+#heading {
+    font-family: var(--ff-heading);
+    font-weight: var(--fw-semi-bold);
+    line-height: normal;
+}
+
+.heading-1 {
+    @extend #heading;
+    font-size: 3.2rem;
+    letter-spacing: -0.052rem
+}
+
+.heading-2 {
+    @extend #heading;
+    font-size: 2.8rem;
+    letter-spacing: -0.046rem
+}
+
+.heading-3 {
+    @extend #heading;
+    font-size: 2.4rem;
+    letter-spacing: -0.039rem;
+}

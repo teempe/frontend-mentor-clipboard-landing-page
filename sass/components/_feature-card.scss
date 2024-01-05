@@ -1,0 +1,17 @@
+.feature-card {
+    text-align: center;
+    color: var(--color-grayish-blue);
+
+    display: grid;
+    justify-items: center;
+    row-gap: 1rem;
+
+    & > *[class^="heading"] {
+        color: var(--color-dark-grayish-blue);
+    }
+
+    &--with-icon {
+        grid-template-rows: 6.2rem auto auto;
+        row-gap: 1.8rem;
+    }
+}

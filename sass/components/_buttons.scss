@@ -1,0 +1,30 @@
+.btn {
+    text-decoration: none;
+    font-weight: var(--fw-semi-bold);
+    font-size: 1.8rem;
+    line-height: 3rem;
+    letter-spacing: 0.05rem;
+    color: var(--color-white);
+
+    width: 31.1rem;
+    height: 5.6rem;
+
+    border-radius: 5.6rem;
+
+    display: grid;
+    place-content: center;
+
+    &:hover, &:focus {
+        background-image: linear-gradient(#FFFFFF40, #FFFFFF40) ;
+    }
+
+    &--ios {
+        background-color: var(--color-strong-cyan);
+        box-shadow: 0rem 1rem 2rem 0rem var(--color-strong-cyan-shadow), 0rem -0.3rem 0rem 0rem #00000026 inset;
+    }
+
+    &--mac {
+       background-color: var(--color-light-blue); 
+       box-shadow: 0rem 1rem 2rem 0rem var(--color-light-blue-shadow), 0rem -0.3rem 0rem 0rem #00000026 inset;
+    }
+}
