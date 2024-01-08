@@ -2,7 +2,6 @@
     padding: 0rem 3.2rem 18.6rem;
 
     display: grid;
-    justify-items: center;
     row-gap: 5.6rem;
 
     &__header {
@@ -16,7 +15,30 @@
     &__features {
         display: flex;
         flex-direction: column;
-        align-items: center;
         row-gap: 4.8rem;
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+        padding: 0rem 0rem 15rem;
+
+        grid-template-columns: 72rem auto;
+        row-gap: 8rem;
+        column-gap: 11rem;
+        
+        &__header {
+            grid-column: 1 / -1;
+            justify-self: center;
+            margin-bottom: 0;
+        }
+
+        &__img {
+            width: auto;
+            justify-self: end;
+        }
+
+        &__features {
+            row-gap: 5.6rem;
+            justify-content: center;
+        }
     }
 }

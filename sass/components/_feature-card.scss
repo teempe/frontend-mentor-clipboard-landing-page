@@ -1,17 +1,26 @@
 .feature-card {
-    text-align: center;
-    color: var(--color-grayish-blue);
-
     display: grid;
-    justify-items: center;
     row-gap: 1rem;
-
-    & > *[class^="heading"] {
-        color: var(--color-dark-grayish-blue);
-    }
+    align-content: start;
+    text-align: center;
 
     &--with-icon {
-        grid-template-rows: 6.2rem auto auto;
+        grid-template-rows: 6.2rem auto;
+        justify-items: center;
         row-gap: 1.8rem;
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+        font-size: 1.6rem;
+        letter-spacing: 0.012rem;
+
+        text-align: left;
+        max-width: 35rem;
+
+        &--with-icon {
+            grid-template-rows: 6.4rem auto;
+            text-align: center;
+            row-gap: 1.6rem;
+        }
     }
 }

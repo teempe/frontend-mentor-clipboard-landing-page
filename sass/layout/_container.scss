@@ -1,3 +1,8 @@
 .container {
-    max-width: 37.5rem;
+    overflow-x: hidden;
+    width: 37.5rem;
+
+    @media only screen and (min-width: $bp-desktop) {
+        width: 144rem;
+    }
 }

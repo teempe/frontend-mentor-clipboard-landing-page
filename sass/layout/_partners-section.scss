@@ -7,6 +7,17 @@
     row-gap: 5.45rem;
 
     &__logo {
-        scale: 84%;
+        scale: 0.84;
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+        padding: 0 16.5rem 15.8rem;
+        
+        flex-direction: row;
+        justify-content: space-between;
+        
+        &__logo {
+            scale: 1;
+        }
     }
 }

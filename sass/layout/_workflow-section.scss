@@ -1,16 +1,24 @@
 .workflow {
-    padding: 0 3.2rem 13.1rem;
+    padding: 0rem 3.2rem 13.1rem;
     
     display: grid;
-    justify-items: center;
-    row-gap: 9rem;
-
-    &__header {
-        margin-bottom: -0.5rem;
-    }
+    row-gap: 8.5rem;
 
     &__features {
-        display: grid;
+        display: flex;
+        flex-direction: column;
         row-gap: 5.25rem;
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+        padding: 0rem 16.5rem 15.8rem;
+        justify-items: center;
+        row-gap: 7.2rem;
+
+        &__features {
+            flex-direction: row;
+            column-gap: 3rem;
+            row-gap: 0rem;
+        }
     }
 }

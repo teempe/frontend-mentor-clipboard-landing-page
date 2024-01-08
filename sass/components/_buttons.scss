@@ -27,4 +27,8 @@
        background-color: var(--color-light-blue); 
        box-shadow: 0rem 1rem 2rem 0rem var(--color-light-blue-shadow), 0rem -0.3rem 0rem 0rem #00000026 inset;
     }
+
+    @media only screen and (min-width: $bp-desktop) {
+        width: 22.7rem;
+    }
 }

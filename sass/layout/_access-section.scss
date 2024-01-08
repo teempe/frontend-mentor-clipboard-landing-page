@@ -1,5 +1,5 @@
 .access {
-    padding: 0 3.2rem 13.1rem;
+    padding: 0rem 3.2rem 13.1rem;
 
     display: grid;
     justify-items: center;
@@ -7,5 +7,14 @@
 
     &__img {
         width: 100%;
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+        padding: 0rem 0rem 16.1rem;
+        row-gap: 11rem;
+
+        &__img {
+            width: auto;
+        }
     }
 }
