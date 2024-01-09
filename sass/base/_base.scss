@@ -32,7 +32,8 @@ html {
 
 body {
     overflow-x: hidden;
-    
+    background-color: var(--color-grayish-blue-10);
+
     // center content on page
     display: grid;
     justify-content: center;
