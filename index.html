@@ -13,13 +13,8 @@
         <title>Frontend Mentor | Clipboard landing page</title>
 
         <script src="https://kit.fontawesome.com/f6d47cd3e1.js" crossorigin="anonymous"></script>
-
-        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-        <style>
-            .attribution { font-size: 11px; text-align: center; }
-            .attribution a { color: hsl(228, 45%, 44%); }
-        </style>
     </head>
+
     <body>
         <div class="container">
             <header class="header">
@@ -33,8 +28,8 @@
                     </div>
                     
                     <div class="cta__buttons">
-                        <a href="#" class="btn btn--ios">Download for iOS</a>
-                        <a href="#" class="btn btn--mac">Download for Mac</a>
+                        <a href="#" class="btn btn--ios" aria-label="Download Clipboard for iOS">Download for iOS</a>
+                        <a href="#" class="btn btn--mac" aria-label="Download Clipboard for Mac">Download for Mac</a>
                     </div>
                 </section>
             </header>
@@ -49,7 +44,7 @@
                             devices. Our Mac and iOS apps will help you organize everything.</p>
                     </div>
 
-                    <img src="./images/image-computer.png" alt="" class="snippets__img">
+                    <img src="./images/image-computer.png" alt="Illustration image of computer displaying Clipboard snippets" class="snippets__img">
                     
                     <div class="snippets__features">
                         <section class="feature-card">
@@ -76,7 +71,7 @@
                             snippets in a few simple clicks.</p>
                     </div>
 
-                    <img src="./images/image-devices.png" alt="" class="access__img">
+                    <img src="./images/image-devices.png" alt="Illustration image of various devices accessing Clipboard" class="access__img">
                 </section>
                 
                 <section class="workflow">
@@ -107,11 +102,12 @@
                 </section>
 
                 <section class="partners">
-                    <img src="./images/logo-google.png" alt="" class="partners__logo">
-                    <img src="./images/logo-ibm.png" alt="" class="partners__logo">
-                    <img src="./images/logo-microsoft.png" alt="" class="partners__logo">
-                    <img src="./images/logo-hp.png" alt="">
-                    <img src="./images/logo-vector-graphics.png" alt="" class="partners__logo">
+                    <h2 class="visually-hidden">Partners</h2>
+                    <img src="./images/logo-google.png" alt="Google logo" class="partners__logo">
+                    <img src="./images/logo-ibm.png" alt="IBM logo" class="partners__logo">
+                    <img src="./images/logo-microsoft.png" alt="Microsoft logo" class="partners__logo">
+                    <img src="./images/logo-hp.png" alt="HP logo">
+                    <img src="./images/logo-vector-graphics.png" alt="Vector graphics logo" class="partners__logo">
                 </section>
                 
                 <section class="cta">
@@ -122,8 +118,8 @@
                     </div>
                     
                     <div class="cta__buttons">
-                        <a href="#" class="btn btn--ios">Download for iOS</a>
-                        <a href="#" class="btn btn--mac">Download for Mac</a>
+                        <a href="#" class="btn btn--ios" aria-label="Download Clipboard for iOS">Download for iOS</a>
+                        <a href="#" class="btn btn--mac" aria-label="Download Clipboard for Mac">Download for Mac</a>
                     </div>
                 </section>
             </main>
@@ -131,7 +127,7 @@
             <footer class="footer">
                 <img src="./images/logo.svg" alt="Clipboard logo" class="logo--footer footer__logo">
 
-                <nav class="footer__nav-links" aria-label="Navigation links">
+                <nav class="footer__nav-links" aria-label="Main navigation">
                     <ul class="links">
                         <li><a href="#" class="links__link">FAQs</a></li>
                         <li><a href="#" class="links__link">Contact Us</a></li>
@@ -162,18 +158,5 @@
                 </nav>
             </footer>
         </div>
-
-
-
-        
-
-
-
-        <!-- <footer>
-            <p class="attribution">
-                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-                Coded by <a href="#">Your Name Here</a>.
-            </p>
-        </footer> -->
     </body>
 </html>
