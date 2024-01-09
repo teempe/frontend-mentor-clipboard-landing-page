@@ -371,6 +371,9 @@ body {
     column-gap: 1.6rem;
     row-gap: 0rem;
   }
+  .cta--in-header {
+    padding: 0rem;
+  }
 }
 
 .footer {
